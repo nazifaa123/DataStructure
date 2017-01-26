@@ -8,7 +8,7 @@ package bst;
 public class WordStoreImp implements WordStore
 {
     private Node root;
-    public WordStoreImp(int n)
+    public WordStoreImp()
     {
         root = null;
     }

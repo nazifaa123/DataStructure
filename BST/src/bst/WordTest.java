@@ -19,7 +19,7 @@ class WordTest
         WordGen.initialise(input);
         System.out.print("Enter the number of words you wish to generate: ");
         int n = input.nextInt();
-        WordStore words = new WordStoreImp(n);
+        WordStore words = new WordStoreImp();
         for(int i=0; i<n; i++)
             words.add(WordGen.make());
         String line = input.nextLine();
